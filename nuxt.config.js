@@ -24,6 +24,8 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '~/assets/styles/normalize',
+    '~/assets/styles/helpers',
     '~/assets/styles/variables',
     '~/assets/styles/globals'
   ],
@@ -38,19 +40,18 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/eslint
-    '@nuxtjs/eslint-module',
+    '@nuxtjs/eslint-module'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-  '@nuxtjs/style-resources'
+    '@nuxtjs/style-resources'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   },
-
   styleResources: {
     scss: ['./assets/styles/*.*']
-  },
+  }
 }
