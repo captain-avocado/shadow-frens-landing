@@ -4,6 +4,8 @@
     Header.header
     .main-content
       Intro.intro
+      SectionArt
+      SectionUtilities
   .footer
     Container
 </template>

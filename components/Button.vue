@@ -34,8 +34,9 @@ export default {
 
 <style lang="scss" scoped>
 .button {
+  height: 36px;
   padding: 8px 12px;
-  font-size: 16px;
+  font-size: 14px;
   color: $white;
   display: flex;
   align-items: center;

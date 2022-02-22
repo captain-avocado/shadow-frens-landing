@@ -19,5 +19,6 @@ export default {
 .header {
   display: flex;
   padding: 36px 0;
+  background-color: inherit;
 }
 </style>

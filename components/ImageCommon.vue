@@ -18,5 +18,7 @@ export default {
 .image {
   border-radius: 10px;
   filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+  object-fit: cover;
+  width: 100%;
 }
 </style>
