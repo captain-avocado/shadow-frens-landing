@@ -1,5 +1,5 @@
 <template lang="pug">
-  img.image(:src="src")
+  img.image(:src="src" :style="{ maxHeight: maxHeight ? maxHeight + 'px' : 'auto' }")
 </template>
 
 <script>
@@ -9,6 +9,10 @@ export default {
     src: {
       type: String,
       default: ''
+    },
+    maxHeight: {
+      type: Number,
+      default: 0
     }
   }
 }

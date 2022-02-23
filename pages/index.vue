@@ -6,6 +6,7 @@
       Intro.intro
       SectionArt
       SectionUtilities
+      Projects.mt-80
   .footer
     Container
 </template>
