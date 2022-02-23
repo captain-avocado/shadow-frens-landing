@@ -7,6 +7,7 @@
       SectionArt
       SectionUtilities
       Projects.mt-80
+      Reminder
   .footer
     Container
 </template>

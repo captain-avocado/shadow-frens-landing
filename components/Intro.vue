@@ -3,9 +3,9 @@
   Container
     .intro__content
       .intro__cards.mb-56
-        ImageCommon.intro__card.mr-40(src="/intro_1.png")
+        ImageCommon.intro__card.mr-40(src="/intro_4.png")
         ImageCommon.intro__card.--center(src="/intro_1.png")
-        ImageCommon.intro__card.ml-40(src="/intro_1.png")
+        ImageCommon.intro__card.ml-40(src="/intro_8.jpg")
       Title.intro__title Shadow Frens
       .intro__text.mb-32 NFT Collection on Solana combining unique utilities and original art with 200 hand-drawn traits
       .intro__button.flex.items-center.justify-center
