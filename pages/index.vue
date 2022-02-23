@@ -9,6 +9,7 @@
       Projects.mt-80
       Reminder
       Store.mb-80
+      Team.mb-80
   .footer
     Container
 </template>
