@@ -2,7 +2,7 @@
   .wrapper
     .section.--light(reverse)
       .section__image(slot="image")
-        ImageCommon.image(src="/store.png" max-height="300" )
+        ImageCommon.image(src="/store.png" :max-height="300" )
       .section__text(slot="default")
         Subtitle.mb-16 Shadow Store
         Paragraph All of the products will be available in our Shadow Store.

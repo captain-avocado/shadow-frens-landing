@@ -4,7 +4,7 @@
     .project.--light
       SectionWithImage(reverse)
         .flex.justify-end(slot="image")
-          ImageCommon(src="/shadowcast.png" max-height="400")
+          ImageCommon(src="/shadowcast.png" :max-height="400")
         template(slot="default")
           .title-row.mb-32.flex.items-center
             Subtitle.mr-16 ShadowCast
@@ -23,7 +23,7 @@
     .project
       SectionWithImage(reverse)
         .flex.justify-end(slot="image")
-          ImageCommon(src="/shadowtools.jpg" max-height="400")
+          ImageCommon(src="/shadowtools.jpg" :max-height="400")
         template(slot="default")
           .title-row.mb-32.flex.items-center
             Subtitle.mr-16 Shadow Tools
@@ -37,7 +37,7 @@
     .project.--light
       SectionWithImage(reverse)
         .flex.justify-end(slot="image")
-          ImageCommon(src="/shadowverse.png" max-height="400")
+          ImageCommon(src="/shadowverse.png" :max-height="400")
         template(slot="default")
           .title-row.mb-32.flex.items-center
             Subtitle.mr-16 ShadowVerse
