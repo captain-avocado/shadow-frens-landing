@@ -6,7 +6,7 @@ header.header.flex.justify-center
     justify-content="space-between"
   )
     Logo
-    Button Connect
+    Button(disabled) Connect
 </template>
 
 <script>

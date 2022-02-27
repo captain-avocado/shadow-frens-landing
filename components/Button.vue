@@ -1,6 +1,6 @@
 <template lang="pug">
   button.button(
-    :class="[`--${size}`, `--${type}`]"
+    :class="[`--${size}`, `--${type}`, disabled ? `--disabled` : '']"
     @click="$emit('click')"
   )
     .button__icon(v-if="$slots.icon")
@@ -27,6 +27,10 @@ export default {
     type: {
       type: String,
       default: 'primary'
+    },
+    disabled: {
+      type: Boolean,
+      default: false
     }
   }
 }
@@ -67,6 +71,11 @@ export default {
     width: 20px;
     height: 20px;
     margin-right: 12px;
+  }
+
+  &.--disabled {
+    background-color: #c4c4c4;
+    pointer-events: none;
   }
 }
 </style>
