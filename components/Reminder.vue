@@ -1,7 +1,7 @@
 <template lang="pug">
-.reminder.pt-80.pb-80
+.reminder
   .reminder__text.mb-32
-    Subtitle Not follow us on Twitter yet?
+    Subtitle Don't follow us on Twitter yet?
     Paragraph Subscribe to get project updates everyday.
   .reminder__slider.slider.mb-32.flex
     .image-wrapper

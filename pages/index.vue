@@ -6,13 +6,12 @@
       Intro.intro
       SectionArt
       SectionUtilities
-      Projects.mt-80
-      Reminder
-      Store.mb-80
-      Team.mb-80
-      Roadmap.mb-80
-  .footer
-    Container
+      Projects.mt-120.mb-120
+      Reminder.mb-120
+      Store.mb-120
+      Team.mb-120
+      Roadmap.mb-120
+  Footer.mb-40
 </template>
 
 <script>
