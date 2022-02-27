@@ -15,7 +15,16 @@
 
 <script>
 export default {
-  name: 'IntroSection'
+  name: 'IntroSection',
+  data () {
+    return {
+      images: [
+        '/intro_4.png',
+        '/intro_1.png',
+        '/intro_8.png'
+      ]
+    }
+  }
 }
 </script>
 

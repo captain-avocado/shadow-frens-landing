@@ -10,24 +10,26 @@
 </template>
 
 <script>
+import { TEAM_ANN, TEAM_DEEMONS, TEAM_ITNON } from '@/configs/constants'
+
 export default {
   name: 'TeamSection',
   members: [
     {
       title: '@_deemons',
-      link: '#',
+      link: TEAM_DEEMONS,
       text: 'Promotion, management. He is also experienced software engineer.',
       ava: '/deemons.png'
     },
     {
       title: '@Ann8Ark',
-      link: '#',
+      link: TEAM_ANN,
       text: 'NFT artist and motion designer. She worked with various projects, including NFT collections.',
       ava: '/ann.png'
     },
     {
       title: '@koritnon',
-      link: '#',
+      link: TEAM_ITNON,
       text: 'Head Solana dev. Also he has experience in web development.',
       ava: '/itnon.png'
     }

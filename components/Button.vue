@@ -74,7 +74,7 @@ export default {
   }
 
   &.--disabled {
-    background-color: #c4c4c4;
+    opacity: .6;
     pointer-events: none;
   }
 }

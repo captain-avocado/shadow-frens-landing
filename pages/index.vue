@@ -5,8 +5,8 @@
     .main-content
       Intro.intro
       SectionArt
-      SectionUtilities
-      Projects.mt-120.mb-120
+      SectionUtilities(@show-more="scroll")
+      Projects.mt-80.pt-40.mb-120(ref="projects")
       Reminder.mb-120
       Store.mb-120
       Team.mb-120
@@ -16,7 +16,15 @@
 
 <script>
 export default {
-  name: 'IndexPage'
+  name: 'IndexPage',
+  methods: {
+    scroll () {
+      if (process.client) {
+        const projectsEl = this.$refs.projects.$el
+        projectsEl.scrollIntoView({ behavior: 'smooth' })
+      }
+    }
+  }
 }
 </script>
 <style lang="scss" scoped>
