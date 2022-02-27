@@ -1,11 +1,20 @@
 <template lang="pug">
-.subtitle
+.subtitle(:class="[`--${type}`]")
   slot
 </template>
 
 <script>
 export default {
-  name: 'UISubtitle'
+  name: 'UISubtitle',
+  props: {
+    /**
+     * @values default, small
+     */
+    type: {
+      type: String,
+      default: 'default'
+    }
+  }
 }
 </script>
 
@@ -13,5 +22,9 @@ export default {
 .subtitle {
   font-size: 32px;
   font-weight: 700;
+
+  &.--small {
+    font-size: 24px;
+  }
 }
 </style>
