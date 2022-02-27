@@ -1,5 +1,5 @@
 <template lang="pug">
-.container(:style="{ alignItems, justifyContent, flexDirection }")
+.container(:style="{ alignItems, justifyContent, flexDirection, maxWidth }")
   slot
 </template>
 
@@ -18,6 +18,10 @@ export default {
     justifyContent: {
       type: String,
       default: 'center'
+    },
+    maxWidth: {
+      type: String,
+      default: '1180px'
     }
   }
 }
@@ -26,7 +30,7 @@ export default {
 <style lang="scss" scoped>
 .container {
   width: 90%;
-  max-width: 1280px;
+  max-width: 1180px;
   display: flex;
 }
 </style>

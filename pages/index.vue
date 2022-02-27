@@ -33,19 +33,7 @@ export default {
   flex: 1;
 }
 
-.container {
-  width: 90%;
-  max-width: 1280px;
-}
-
 .header {
-  position: fixed;
   width: 100%;
-  top: 0;
 }
-
-.intro {
-  height: 100vh;
-}
-
 </style>

@@ -22,6 +22,7 @@ export default {
 <style lang="scss" scoped>
 .intro {
   &__content {
+    padding: 120px 0;
     width: 100%;
     max-width: 520px;
     text-align: center;
