@@ -40,11 +40,17 @@ export default {
 <style lang="scss" scoped>
 .team {
   &__container {
-    width: 668px;
+    max-width: 668px;
+
+    @include tablet {
+      flex-direction: column;
+    }
   }
 
   &__member {
     max-width: 197px;
+    margin-bottom: 64px;
+    margin-right: 0;
   }
 }
 .member {

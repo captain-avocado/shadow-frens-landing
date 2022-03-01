@@ -40,5 +40,9 @@ export default {
 .image-wrapper {
   min-width: 15%;
   padding: 0 24px;
+
+  @include tablet {
+    min-width: 30%;
+  }
 }
 </style>

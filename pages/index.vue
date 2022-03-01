@@ -4,8 +4,8 @@
     Header.header
     .main-content
       Intro.intro
-      SectionArt
-      SectionUtilities(@show-more="scroll")
+      SectionArt.art
+      SectionUtilities.utilities(@show-more="scroll")
       Projects.mt-80.pt-40.mb-120(ref="projects")
       Reminder.mb-120
       Store.mb-120
@@ -42,5 +42,11 @@ export default {
 
 .header {
   width: 100%;
+}
+
+.art, .utilities {
+  @include tablet {
+    margin-bottom: 80px;
+  }
 }
 </style>

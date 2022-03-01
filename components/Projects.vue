@@ -1,8 +1,8 @@
 <template lang="pug">
   .wrapper
-    Subtitle.ml-auto.mr-auto.mb-32 Introducing our projects
+    Subtitle.title.ml-auto.mr-auto.mb-32 Introducing our projects
     .project.--light
-      SectionWithImage(reverse)
+      SectionWithImage(reverse tablet-small-image)
         .flex.justify-end(slot="image")
           ImageCommon(src="/shadowcast.png" :max-height="400")
         template(slot="default")
@@ -21,7 +21,7 @@
               strong exclusive content only for holders.
               span &nbsp;We will invite cool people from NFT space to talk to them about industry.
     .project
-      SectionWithImage(reverse)
+      SectionWithImage(reverse tablet-small-image)
         .flex.justify-end(slot="image")
           ImageCommon(src="/shadowtools.jpg" :max-height="400")
         template(slot="default")
@@ -35,7 +35,7 @@
               a(href="#") telegram bot
               span , that notifies about upcoming collections. Check it out.
     .project.--light
-      SectionWithImage(reverse)
+      SectionWithImage(reverse tablet-small-image)
         .flex.justify-end(slot="image")
           ImageCommon(src="/shadowverse.png" :max-height="400")
         template(slot="default")
@@ -59,11 +59,20 @@ export default {
   display: flex;
   align-items: center;
 
+  @include tablet {
+    height: auto;
+    padding: 40px 0;
+  }
+
   &.--light {
     background-color: $bg-light;
   }
 }
 .img {
   width: 50px;
+}
+.title {
+  width: 90%;
+  text-align: center;
 }
 </style>

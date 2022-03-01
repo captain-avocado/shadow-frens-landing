@@ -63,11 +63,17 @@ export default {
     &.--left {
       top: 50%;
       transform: translate(-120%, -50%) scale(1);
+      @include tablet {
+        display: none;
+      }
     }
 
     &.--right {
       top: 50%;
       transform: translate(20%, -50%) scale(1);
+      @include tablet {
+        display: none;
+      }
     }
 
     &.--center {

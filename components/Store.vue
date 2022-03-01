@@ -27,14 +27,21 @@ export default {
   border-radius: 10px;
   background-color: $bg-light;
 
+  @include tablet {
+    flex-direction: column;
+  }
+
   &__image {
-    width: 240px;
+    max-width: 240px;
     height: 240px;
     margin-right: 80px;
+    @include tablet {
+      margin: 0 auto 40px;
+    }
   }
 
   &__text {
-    width: 300px;
+    max-width: 300px;
     margin: auto;
   }
 }
