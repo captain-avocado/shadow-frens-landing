@@ -55,7 +55,7 @@ export default {
   }
 
   &__card {
-    width: 200px;
+    width: 200px !important;
     height: 200px;
     transition: transform .5s ease-in-out;
     position: absolute;
