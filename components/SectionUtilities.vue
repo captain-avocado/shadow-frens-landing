@@ -1,7 +1,7 @@
 <template lang="pug">
   SectionWithImage(reverse)
     template(slot="image")
-      ImageCommon.image(src="/section_utilities.jpg")
+      ImageCommon.image(src="./section_utilities.jpg")
     template(slot="default")
       Subtitle.mb-16 We provide different utilities
       Paragraph

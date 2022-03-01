@@ -5,19 +5,19 @@
     Paragraph Subscribe to get project updates everyday.
   .reminder__slider.slider.mb-32.flex
     .image-wrapper
-      ImageCommon(src="/intro_1.png")
+      ImageCommon(src="./intro_1.png")
     .image-wrapper
-      ImageCommon(src="/intro_2.png")
+      ImageCommon(src="./intro_2.png")
     .image-wrapper
-      ImageCommon(src="/intro_3.png")
+      ImageCommon(src="./intro_3.png")
     .image-wrapper
-      ImageCommon(src="/intro_4.png")
+      ImageCommon(src="./intro_4.png")
     .image-wrapper
-      ImageCommon(src="/intro_5.png")
+      ImageCommon(src="./intro_5.png")
     .image-wrapper
-      ImageCommon(src="/intro_6.png")
+      ImageCommon(src="./intro_6.png")
     .image-wrapper
-      ImageCommon(src="/intro_7.png")
+      ImageCommon(src="./intro_7.png")
   TwitterButton.m-auto
 </template>
 

@@ -1,7 +1,7 @@
 <template lang="pug">
   Button(:type="type" @click="onClick")
     template(slot="icon")
-      img(src="/twitter.svg")
+      img(:src="'./twitter.svg'")
     template(v-if="!hasDefaultSlot")
       | Follow on Twitter
     template(v-else slot="default")

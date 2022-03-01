@@ -1,11 +1,11 @@
 <template lang="pug">
 .footer
   a.footer__link.mr-32(:href="$options.TWITTER")
-    img.footer__img(src="/twitter.svg")
+    img.footer__img(:src="'./twitter.svg'")
   a.footer__link.mr-32(:href="$options.DISCORD")
-    img.footer__img(src="/discord.svg")
+    img.footer__img(:src="'./discord.svg'")
   a.footer__link(:href="$options.TELEGRAM")
-    img.footer__img(src="/telegram-white.svg")
+    img.footer__img(:src="'./telegram-white.svg'")
 </template>
 
 <script>

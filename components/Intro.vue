@@ -4,15 +4,15 @@
     .intro__content
       .intro__cards.mb-160
         ImageCommon.intro__card(
-          src="/intro_4.png"
+          src="./intro_4.png"
           :class="{'--left': classes[0]===0,'--right': classes[0]===2,'--center': classes[0]===1 }"
         )
         ImageCommon.intro__card(
-          src="/intro_1.png"
+          src="./intro_1.png"
           :class="{'--left': classes[0]===1,'--right': classes[0]===0,'--center': classes[0]===2 }"
         )
         ImageCommon.intro__card(
-          src="/intro_8.jpg"
+          src="./intro_8.jpg"
           :class="{'--left': classes[0]===2,'--right': classes[0]===1,'--center': classes[0]===0 }"
         )
       Title.intro__title Shadow Frens

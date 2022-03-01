@@ -1,7 +1,7 @@
 <template lang="pug">
   Button(@click="onClick")
     template(slot="icon")
-      img(src="/discord.svg")
+      img(:src="'./discord.svg'")
     | Join Discord
 </template>
 

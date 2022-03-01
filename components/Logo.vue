@@ -1,6 +1,6 @@
 <template lang="pug">
   a(:href="$options.TWITTER")
-    img.logo(src="/logo.svg")
+    img.logo(:src="'./logo.svg'")
 </template>
 
 <script>

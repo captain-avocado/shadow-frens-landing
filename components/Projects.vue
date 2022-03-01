@@ -4,11 +4,11 @@
     .project.--light
       SectionWithImage(reverse tablet-small-image)
         .flex.justify-end(slot="image")
-          ImageCommon(src="/shadowcast.png" :max-height="400")
+          ImageCommon(src="./shadowcast.png" :max-height="400")
         template(slot="default")
           .title-row.mb-32.flex.items-center
             Subtitle.mr-16 ShadowCast
-            img.img(src="/yt.svg")
+            img.img(:src="'./yt.svg'")
           Paragraph We will create high-quality video content about NFTs.
           Paragraph
             | It’s going to be YouTube channel “ShadowCast”, where we speak on topics like:
@@ -23,11 +23,11 @@
     .project
       SectionWithImage(reverse tablet-small-image)
         .flex.justify-end(slot="image")
-          ImageCommon(src="/shadowtools.jpg" :max-height="400")
+          ImageCommon(src="./shadowtools.jpg" :max-height="400")
         template(slot="default")
           .title-row.mb-32.flex.items-center
             Subtitle.mr-16 Shadow Tools
-            img.img(src="/telegram.svg")
+            img.img(:src="'./telegram.svg'")
           Paragraph We are creators not only in art space. We love to build services that help people. We are developing several tools for NFT traders and NFT collectors.
           Paragraph
             i
@@ -37,11 +37,11 @@
     .project.--light
       SectionWithImage(reverse tablet-small-image)
         .flex.justify-end(slot="image")
-          ImageCommon(src="/shadowverse.png" :max-height="400")
+          ImageCommon(src="./shadowverse.png" :max-height="400")
         template(slot="default")
           .title-row.mb-32.flex.items-center
             Subtitle.mr-16 ShadowVerse
-            img.img(src="/game.svg")
+            img.img(:src="'./game.svg'")
           Paragraph We’ll also tell more about ShadowVerse and create a game.
           Paragraph  Our vision is that games should bring joy and fun, they are not meant to be places for grind or work. So we don’t want to use classical P2E mechanics for NFT games. Instead of this we want to focus on what NFTs do very good – creating closed communities.
           Paragraph  We’ll deliver new content every couple of months, so the holders will constantly get new gaming experience.
