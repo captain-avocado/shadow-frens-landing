@@ -9,7 +9,7 @@
       Projects.mt-80.pt-40.mb-120(ref="projects")
       Reminder.mb-120
       Store.mb-120
-      Team.mb-120
+      Team.team.mb-120
       Roadmap.mb-120
   Footer.mb-40
 </template>
@@ -46,7 +46,13 @@ export default {
 
 .art, .utilities {
   @include tablet {
-    margin-bottom: 80px;
+    margin-bottom: 80px !important;
+  }
+}
+
+.team {
+  @include tablet {
+    margin-bottom: 60px !important;
   }
 }
 </style>
