@@ -49,8 +49,12 @@ export default {
 
   &__member {
     max-width: 197px;
-    margin-bottom: 64px;
-    margin-right: 0;
+    margin-right: 64px;
+
+    @include tablet {
+      margin-bottom: 64px;
+      margin-right: 0;
+    }
   }
 }
 .member {

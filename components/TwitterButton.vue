@@ -1,5 +1,5 @@
 <template lang="pug">
-  Button(:type="type" @click="onClick")
+  Button(:type="type" :href="$options.TWITTER_ACCOUNT_LINK")
     template(slot="icon")
       img(:src="'./twitter.svg'")
     template(v-if="!hasDefaultSlot")
@@ -19,16 +19,10 @@ export default {
       default: 'primary'
     }
   },
+  TWITTER_ACCOUNT_LINK,
   computed: {
     hasDefaultSlot () {
       return this.$slots.default
-    }
-  },
-  methods: {
-    onClick () {
-      if (process.client) {
-        window.location.href = TWITTER_ACCOUNT_LINK
-      }
     }
   }
 }

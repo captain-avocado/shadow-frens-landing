@@ -9,7 +9,7 @@
         .div • Merch with unique design
         .div • Staking $SFC while NFT is not listied
       Paragraph And this is not all!
-      Button.mt-32(@click="$emit('show-more')") Show more
+      Button.mt-32(@click="$emit('show-more')") Scroll down for more
 </template>
 
 <script>

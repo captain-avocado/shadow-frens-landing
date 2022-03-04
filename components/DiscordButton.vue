@@ -1,5 +1,5 @@
 <template lang="pug">
-  Button(@click="onClick")
+  Button(:href="$options.DISCORD_INVITE_LINK")
     template(slot="icon")
       img(:src="'./discord.svg'")
     | Join Discord
@@ -10,13 +10,7 @@ import { DISCORD_INVITE_LINK } from '@/configs/constants'
 
 export default {
   name: 'DiscordButton',
-  methods: {
-    onClick () {
-      if (process.client) {
-        window.location.href = DISCORD_INVITE_LINK
-      }
-    }
-  }
+  DISCORD_INVITE_LINK
 }
 </script>
 

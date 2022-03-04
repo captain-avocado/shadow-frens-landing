@@ -1,7 +1,8 @@
 <template lang="pug">
-  button.button(
+  component.button(
+    :is="component"
+    :href="href"
     :class="[`--${size}`, `--${type}`, disabled ? `--disabled` : '']"
-    @click="$emit('click')"
   )
     .button__icon(v-if="$slots.icon")
       slot(name="icon")
@@ -31,6 +32,15 @@ export default {
     disabled: {
       type: Boolean,
       default: false
+    },
+    href: {
+      type: String,
+      default: ''
+    }
+  },
+  computed: {
+    component () {
+      return this.href ? 'a' : 'button'
     }
   }
 }
@@ -38,7 +48,10 @@ export default {
 
 <style lang="scss" scoped>
 .button {
+  box-sizing: border-box;
+  width: fit-content;
   height: 36px;
+  text-decoration: none;
   padding: 8px 12px;
   font-size: 14px;
   color: $white;
