@@ -13,6 +13,9 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'NFT Collection on Solana combining unique utilities and original art with 200 hand-drawn traits' },
       { hid: 'og:image', property: 'og:image', content: './og.png' },
+      { hid: 'twitter:title', property: 'twitter:title', content: 'Shadow Frens NFT' },
+      { hid: 'twitter:description', property: 'twitter:description', content: 'NFT Collection on Solana combining unique utilities and original art with 200 hand-drawn traits' },
+      { hid: 'twitter:image', property: 'twitter:image', content: './og.png' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
